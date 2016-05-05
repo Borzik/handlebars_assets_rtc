@@ -1,0 +1,2 @@
+h3 It works well if you see this text and image below
+img src="#{ image_path('test.jpg') }" style='height:400px;width:auto;'
