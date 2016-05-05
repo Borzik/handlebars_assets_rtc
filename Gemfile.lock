@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/Borzik/handlebars_assets.git
+  revision: 40edffb2fea284eeb70d8f719c3d517d8664d626
+  branch: sprockets_version
+  specs:
+    handlebars_assets (0.23.0)
+      execjs (~> 2.0)
+      multi_json (~> 1.0)
+      sprockets (>= 2.0.0)
+      tilt (>= 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,11 +65,6 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    handlebars_assets (0.23.0)
-      execjs (~> 2.0)
-      multi_json (~> 1.0)
-      sprockets (>= 2.0.0)
-      tilt (>= 1.2)
     i18n (0.7.0)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -154,7 +160,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
-  handlebars_assets (~> 0.23.0)
+  handlebars_assets!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.6)

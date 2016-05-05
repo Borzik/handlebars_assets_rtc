@@ -19,10 +19,13 @@ gem 'slim'
 # broken combination
 gem 'sprockets', '~> 3.6'
 gem 'sprockets-rails', '~> 3.0'
-gem 'handlebars_assets', '~> 0.23.0'
+# gem 'handlebars_assets', '~> 0.23.0'
 
 # my branch of handlebars_assets will fix it:
 # gem 'handlebars_assets', github: 'Borzik/handlebars_assets', branch: 'asset_paths'
+
+# THIS SHOULD BE USED
+gem 'handlebars_assets', github: 'Borzik/handlebars_assets', branch: 'sprockets_version'
 
 group :development, :test do
   gem 'byebug'
